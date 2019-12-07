@@ -220,7 +220,7 @@ end
 #   end 
 # end 
 require 'pry'
-def most_points_scored
+def most_points_scored(player)
   binding.pry 
   
   
