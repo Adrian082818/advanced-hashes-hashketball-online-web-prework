@@ -221,11 +221,19 @@ end
 # end 
 require 'pry'
 def most_points_scored(player_name)
+  nums = []
   game_hash.each do |place, team|
-    
+    team.each do |attribute, data|
+      if attribute == :player 
+        data.each do |player|
+          if player[:player_name] == player_name 
+            player[:points]
+            nums << player[:points]
+          end 
+        end 
+        end 
+    end 
   end 
-  binding.pry
-  
-  
+return nums 
 end 
 
