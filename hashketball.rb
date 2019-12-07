@@ -220,7 +220,10 @@ end
 #   end 
 # end 
 require 'pry'
-def most_points_scored(player)
+def most_points_scored(player_name)
+  game_hash.each do |place, team|
+    
+  end 
   binding.pry
   
   
